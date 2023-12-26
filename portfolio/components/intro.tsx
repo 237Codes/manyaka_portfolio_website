@@ -54,7 +54,7 @@ export default function Intro() {
       {/* Add Intro text 
         - curly brackets with empty strings is just used to add spaces 
       */}
-      <motion.p
+      <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -62,7 +62,7 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Manyaka.</span> I'm a{" "}
         <span className="font-bold">full-stack developer. </span> I enjoy
         building <span className="italic">sites & apps</span>.
-      </motion.p>
+      </motion.h1>
 
       {/* Add button to contact me, download cv, linked  and github profiles */}
       <motion.div
