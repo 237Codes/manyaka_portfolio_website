@@ -3,6 +3,7 @@
     "clsx": "^2.1.0",
     "framer": "^2.4.1",
     "framer-motion": "^10.16.16",
-    "motion": "^10.16.4"
+    "motion": "^10.16.4",
+    "react-intersection-observer": "^9.5.3"
   }
 }
