@@ -7,11 +7,13 @@ import { motion } from "framer-motion";
 export default function About() {
   return (
     //   Leading refers to line height in Tailwind css
+    // Scroll Margintop is  use to add  padding to the  section when we navigate to it using the nav bar
     <motion.section
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40"
+      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ odelay: 0.175 }}
+      id="about"
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">

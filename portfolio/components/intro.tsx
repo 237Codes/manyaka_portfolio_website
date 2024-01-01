@@ -9,9 +9,13 @@ import { HiDownload } from "react-icons/hi"; // Download icon
 import { BsLinkedin } from "react-icons/bs"; // LinkedIn icon
 import { FaGithubSquare } from "react-icons/fa";
 
+// Scroll Margintop (scroll-mt) is  use to add  padding to the  section when we navigate to it using the nav bar
 export default function Intro() {
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+    <section
+      id="home"
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+    >
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div

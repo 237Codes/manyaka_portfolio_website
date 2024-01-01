@@ -1,6 +1,5 @@
 import Header from "@/components/header";
 import "./globals.css";
-
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -16,7 +15,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    // !scroll-smooth is used to enable smooth scrolling on the page  and ! is used to  give the property
+    //priority over other properties that may conflict with it
+    <html lang="en" className="!scroll-smooth">
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative  h-[5000px] pt-28 sm:pt-36`}
       >
