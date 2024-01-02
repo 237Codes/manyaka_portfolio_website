@@ -1,12 +1,15 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import { links } from "@/lib/data";
 import Link from "next/link";
 import clsx from "clsx";
+import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Header() {
+  const { activeSection, setActiveSection } = useActiveSectionContext();
+
   return (
     <header className="z-[999] relative">
       {/* create and center header section 
@@ -17,7 +20,7 @@ export default function Header() {
             border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] 
             sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full"
         //   framer motion overrides the default css values and position
-        //
+        //   initial is the initial position of the div
         initial={{ y: -100, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       ></motion.div>
