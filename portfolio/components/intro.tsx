@@ -8,11 +8,15 @@ import { BsArrowRight } from "react-icons/bs"; // Arrow icon
 import { HiDownload } from "react-icons/hi"; // Download icon
 import { BsLinkedin } from "react-icons/bs"; // LinkedIn icon
 import { FaGithubSquare } from "react-icons/fa";
+import { useSectionInView } from "@/lib/hooks";
 
 // Scroll Margintop (scroll-mt) is  use to add  padding to the  section when we navigate to it using the nav bar
 export default function Intro() {
+  const { ref } = useSectionInView("Home", 0.5);
+
   return (
     <section
+      ref={ref}
       id="home"
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >

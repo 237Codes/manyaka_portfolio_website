@@ -1,10 +1,7 @@
 "use client";
 
+import type { SectionName } from "@/lib/types";
 import React, { useState, createContext, useContext } from "react";
-import { links } from "@/lib/data";
-
-// links is an array of objects that brings  inthe various sectionname information
-type SectionName = (typeof links)[number]["name"];
 
 type ActiveSectionProviderProps = {
   children: React.ReactNode;
@@ -13,6 +10,8 @@ type ActiveSectionProviderProps = {
 type ActiveSectionContextType = {
   activeSection: SectionName;
   setActiveSection: React.Dispatch<React.SetStateAction<SectionName>>;
+  timeOfLastClick: number;
+  setTimeOfLastClick: React.Dispatch<React.SetStateAction<number>>;
 };
 
 export const ActiveSectionContext =
@@ -23,11 +22,24 @@ export default function ActiveSectionContextProvider({
 }: ActiveSectionProviderProps) {
   const [activeSection, setActiveSection] = useState<SectionName>("Home");
 
+  //////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////
+  //
+  // we need to keep track of this to disable the observer temperarily
+  // when user clicks on a link
+  //
+  /////////////////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////////////
+
+  const [timeOfLastClick, setTimeOfLastClick] = useState(0);
+
   return (
     <ActiveSectionContext.Provider
       value={{
         activeSection,
         setActiveSection,
+        timeOfLastClick,
+        setTimeOfLastClick,
       }}
     >
       {children}
@@ -35,9 +47,18 @@ export default function ActiveSectionContextProvider({
   );
 }
 
-// hook used to consume the  active section provider context generated  by activesectioncontextprovider
-// obj is an object that contains the activeSection and setActiveSection
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//
+// hook used to consume the  active section provider context
+// generated  by activesectioncontextprovider
+// obj is an object that contains the activeSection
+// and setActiveSection
 // activeSection is the current active section
+//
+/////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////
+
 export function useActiveSectionContext() {
   const context = useContext(ActiveSectionContext);
 
