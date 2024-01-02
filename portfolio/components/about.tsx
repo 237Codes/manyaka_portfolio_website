@@ -1,14 +1,28 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function About() {
+  // Use In View tells us whather the section is in view or not
+  const { ref, inView } = useInView();
+  //   We use the active section context to set the active section in the nav bar
+  const { setActiveSection } = useActiveSectionContext();
+
+  useEffect(() => {
+    if (inView) {
+      setActiveSection("About");
+    }
+  }, [inView, setActiveSection]);
+
   return (
     //   Leading refers to line height in Tailwind css
     // Scroll Margintop is  use to add  padding to the  section when we navigate to it using the nav bar
     <motion.section
+      ref={ref}
       className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
