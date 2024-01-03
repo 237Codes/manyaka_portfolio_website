@@ -4,6 +4,7 @@
     "framer": "^2.4.1",
     "framer-motion": "^10.16.16",
     "motion": "^10.16.4",
-    "react-intersection-observer": "^9.5.3"
+    "react-intersection-observer": "^9.5.3",
+    "react-vertical-timeline-component": "^3.6.0"
   }
 }
