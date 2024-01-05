@@ -44,7 +44,7 @@ export const experiencesData = [
     date: "2022 - 2024",
   },
   {
-    title: "Bachelor of Computer Science",
+    title: "Bachelor of Science",
     location: "Towson University, Towson, MD",
     description:
       "I am currently taking coursework in computer science full-time, working towards a Bachelors in Computer Science Degree Program",

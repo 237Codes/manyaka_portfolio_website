@@ -8,3 +8,8 @@ When creating the experience section, I decided to try out the reach verticale c
 and I noticed a few things
 
 1- The vertical component is hidden by default. I firstly tried to set <VerticalTimelineElement visible={true}>.
+
+# Making the projects clickable
+
+To make the projects clickable so that I can redirect the user to another site, I will just need
+to wrap them in an anchor tag
