@@ -48,7 +48,12 @@ export default function About() {
         the gym, reading books, and spending time in nature. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         self teaching myself using{" "}
-        <span className="font-medium">THE ODIN PROJECT</span>.
+        <span className="font-medium underline">
+          <a href="https://theodinproject.com" target="blank">
+            THE ODIN PROJECT
+          </a>
+        </span>
+        .
       </p>
     </motion.section>
   );
