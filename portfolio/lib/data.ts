@@ -36,24 +36,32 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Associates of Science",
+    location: "Howard Community College, Columbia, MD",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I studied coursework in Computer Science to obtain an Associates of Science Degree in Computer Science",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022 - 2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Bachelor of Computer Science",
+    location: "Towson University, Towson, MD",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I am currently taking coursework in computer science full-time, working towards a Bachelors in Computer Science Degree Program",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023 - 2025",
+  },
+  {
+    title: "WordPress Developer",
+    location: "TMAC Communications LLC, Columbia, MD",
+    description:
+      "I built custom wordpress themes for a local spa client using HTML,CSS and JavaScript. I also did website maintainance and SEO management which led to 7% increased spa bookings.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Columbia, MD",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
