@@ -15,3 +15,7 @@ true, it display is always visible
 
 To make the projects clickable so that I can redirect the user to another site, I will just need
 to wrap them in an anchor tag
+
+# Contact me section
+
+Using <input> tag for users email because it is a single line. For multiple lines of input, I will rather use a text area tag
