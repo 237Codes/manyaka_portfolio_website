@@ -22,6 +22,7 @@ Using <input> tag for users email because it is a single line. For multiple line
 
 5:06 email form validation
 5:20 send email using Resend email
+5:52 installing react email components
 
 I am using resend for the email. Resend is a popular for emails made by the same team as React Email
 
