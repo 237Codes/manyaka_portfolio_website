@@ -26,7 +26,7 @@ Using <input> tag for users email because it is a single line. For multiple line
 
 I am using resend for the email. Resend is a popular for emails made by the same team as React Email
 
-The API Key for my Portfolio website is re_QpFY188K_JNAcNEBftoioVEJJAj4dtiir you can find this in (.env.local) folder
+Using "react hot toast" to customize the alert message that pops up on submit 
 
 # duplicate a line
 
