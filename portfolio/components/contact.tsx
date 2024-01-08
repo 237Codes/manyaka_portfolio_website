@@ -49,7 +49,13 @@ export default function Contact() {
           //   console.log("Running on client");
           //   console.log(formData.get("senderEmail"));
           //   console.log(formData.get("message"));
-          await sendEmail(formData);
+          const { data, error } = await sendEmail(formData);
+          if (error) {
+            alert(error);
+            return;
+          }
+
+          alert("Email sent successfully");
         }}
       >
         <input
