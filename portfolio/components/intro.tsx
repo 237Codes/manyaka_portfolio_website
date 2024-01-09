@@ -71,7 +71,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Manyaka.</span> I'm a{" "}
         <span className="font-bold">full-stack developer </span> trying to make
-        the world a better place{" "}
+        the world a better place,{" "}
         <span className="italic">one code character at a time!</span>
       </motion.h1>
 

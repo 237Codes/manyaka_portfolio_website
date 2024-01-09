@@ -1,6 +1,6 @@
 # manyaka_portfolio_website
 
-This is a document for my portfolio website. I will be documenting my progess here.
+This is a document for my portfolio website. I will be documenting my progess here. You can find important notes about the various sections in this document.
 
 # Things to note about the experience section
 
@@ -30,6 +30,16 @@ Using <input> tag for users email because it is a single line. For multiple line
 I am using resend for the email. Resend is a popular for emails made by the same team as React Email
 
 Using "react hot toast" to customize the alert message that pops up on submit
+
+# Theme switch section
+
+To keep traack of the current theme when the user reloads or revisits the website, I am using the windows.localStorage("theme", "dark") function
+
+When I have track of it, we need to get the theme when the page is about to display again
+using useEffect, then set the theme to the local them if any exists
+
+I can also keep track of the default theme on the users computer using media query
+windows.matchMedia("(prefers-color0scheme: dark)").matches 
 
 # duplicate a line
 
