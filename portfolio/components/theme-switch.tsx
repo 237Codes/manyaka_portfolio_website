@@ -40,26 +40,3 @@ export default function ThemeSwitch() {
     </button>
   );
 }
-
-// ...
-
-// export default function ThemeSwitch() {
-//   const [theme, setTheme] = useState<Theme>("light");
-
-//   const toggleTheme = () => {
-//     // Simply toggle between "light" and "dark" without needing a parameter
-//     setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
-//   };
-
-//   return (
-//     <button
-//       className="fixed bottom-5 right-5 bg-white w-[3rem] h-[3rem]
-//         bg-opacity-80 backdrop-blur-[0.5rem] border border-white
-//         border-opacity-40 shadow-2xl rounded-full flex items-center
-//         justify-center hover:scale-[1.15] active:scale-105 transition-all"
-//       onClick={toggleTheme}
-//     >
-//       {theme === "light" ? <BsSun /> : <BsMoon />}
-//     </button>
-//   );
-// }
