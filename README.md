@@ -2,9 +2,7 @@
 
 This is a document for my portfolio website. I will be documenting my progess here. You can find important notes about the various sections in this document.
 
-# intro Section
 
-# About Me Section
 
 # Things to note about the experience section
 
