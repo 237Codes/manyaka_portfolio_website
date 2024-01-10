@@ -2,6 +2,10 @@
 
 This is a document for my portfolio website. I will be documenting my progess here. You can find important notes about the various sections in this document.
 
+# intro Section
+
+# About Me Section
+
 # Things to note about the experience section
 
 When creating the experience section, I decided to try out the react vertical component
@@ -39,7 +43,7 @@ When I have track of it, we need to get the theme when the page is about to disp
 using useEffect, then set the theme to the local them if any exists
 
 I can also keep track of the default theme on the users computer using media query
-windows.matchMedia("(prefers-color0scheme: dark)").matches 
+windows.matchMedia("(prefers-color0scheme: dark)").matches
 
 # duplicate a line
 
