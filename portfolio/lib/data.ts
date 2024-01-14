@@ -59,6 +59,16 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2023",
   },
+
+  {
+    title: "Arcade Technician",
+    location: "Round One Bowling, Towson, MD",
+    description:
+      "I work as an arcade technician while being a full time student. My primary duties are testing, debugging and fixing faults in arcade machines.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - present",
+  },
+
   {
     title: "Full-Stack Developer",
     location: "Columbia, MD",
