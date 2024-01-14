@@ -52,6 +52,14 @@ export const experiencesData = [
     date: "2023 - 2025",
   },
   {
+    title: "Sales Associate",
+    location: "Sunglass Hut, Columbia, MD",
+    description:
+      "I am a sales associate at Sunglass Hut acting as an intermediary between a customer and a product. I apply leadership and time management and customer service in order to enhance customdr experience.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023",
+  },
+  {
     title: "WordPress Developer",
     location: "TMAC Communications LLC, Columbia, MD",
     description:
