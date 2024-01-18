@@ -2,6 +2,8 @@
 
 This is a document for my portfolio website. I will be documenting my progess here. You can find important notes about the various sections in this document.
 
+Hosting : https://Vercel.com
+
 # Things to note about the experience section
 
 When creating the experience section, I decided to try out the react vertical component
@@ -28,6 +30,7 @@ Using <input> tag for users email because it is a single line. For multiple line
 6:35 Dark Mode system setting fixes
 
 I am using resend for the email. Resend is a popular for emails made by the same team as React Email
+https://resend.com/login?redirectedFrom=%2Foverview
 
 Using "react hot toast" to customize the alert message that pops up on submit
 
