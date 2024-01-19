@@ -69,10 +69,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Manyaka.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer </span> trying to make
-        the world a better place,{" "}
-        <span className="italic">one code character at a time!</span>
+        <span className="font-bold">Hello, I'm Manyaka.</span> I'm on{" "}
+        <span className="font-bold">a mission</span> to make a positive impact
+        through code, <span className="italic">one character at a time!</span>
       </motion.h1>
 
       {/* Add button to contact me, download cv, linked  and github profiles */}
