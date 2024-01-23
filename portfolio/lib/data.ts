@@ -51,14 +51,16 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: "2023 - 2025",
   },
+
   {
-    title: "Sales Associate",
-    location: "Sunglass Hut, Columbia, MD",
+    title: "Software Development Intern",
+    location: "Columbia, MD",
     description:
-      "I am a sales associate at Sunglass Hut acting as an intermediary between a customer and a product. I apply leadership, time management and customer service in order to enhance customer experience.",
-    icon: React.createElement(CgWorkAlt),
+      "Improved a JavaScript-based web application, for a temporary staffing company, resulting in a 15% reduction in customer support tickets. Served as an assistant team lead, leading code testing efforts with a team of four developers, leading to a 20% increase in user engagement",
+    icon: React.createElement(FaReact),
     date: "2021 - present",
   },
+
   {
     title: "WordPress Developer",
     location: "TMAC Communications LLC, Columbia, MD",
@@ -75,6 +77,15 @@ export const experiencesData = [
       "I work as an arcade technician while being a full time student. My primary duties are testing, debugging and fixing faults in arcade machines.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - present",
+  },
+
+  {
+    title: "Sales Associate",
+    location: "Sunglass Hut, Columbia, MD",
+    description:
+      "I am a sales associate at Sunglass Hut acting as an intermediary between a customer and a product. I apply leadership, time management and customer service in order to enhance customer experience.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - present",
   },
 
   {
