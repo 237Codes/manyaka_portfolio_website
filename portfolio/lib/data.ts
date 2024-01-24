@@ -35,22 +35,22 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  {
-    title: "Associates of Science",
-    location: "Howard Community College, Columbia, MD",
-    description:
-      "I studied coursework in Computer Science to obtain an Associates of Science Degree in Computer Science",
-    icon: React.createElement(LuGraduationCap),
-    date: "2022 - 2024",
-  },
-  {
-    title: "Bachelor of Science",
-    location: "Towson University, Towson, MD",
-    description:
-      "I am currently taking coursework in computer science full-time, working towards a Bachelors in Computer Science Degree Program",
-    icon: React.createElement(LuGraduationCap),
-    date: "2023 - 2025",
-  },
+  // {
+  //   title: "Associates of Science",
+  //   location: "Howard Community College, Columbia, MD",
+  //   description:
+  //     "I studied coursework in Computer Science to obtain an Associates of Science Degree in Computer Science",
+  //   icon: React.createElement(LuGraduationCap),
+  //   date: "2022 - 2024",
+  // },
+  // {
+  //   title: "Bachelor of Science",
+  //   location: "Towson University, Towson, MD",
+  //   description:
+  //     "I am currently taking coursework in computer science full-time, working towards a Bachelors in Computer Science Degree Program",
+  //   icon: React.createElement(LuGraduationCap),
+  //   date: "2023 - 2025",
+  // },
 
   {
     title: "Software Development Intern",
@@ -88,33 +88,19 @@ export const experiencesData = [
     date: "2021 - present",
   },
 
-  {
-    title: "Full-Stack Developer",
-    location: "Columbia, MD",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+  // {
+  //   title: "Full-Stack Developer",
+  //   location: "Columbia, MD",
+  //   description:
+  //     "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+  //   icon: React.createElement(FaReact),
+  //   date: "2021 - present",
+  // },
 ] as const;
 
 // ProjectsData is a list of the projects that I have worked on.
 //An array in JS with each projects represented by an obejct.
 export const projectsData = [
-  // {
-  //   title: "CorpComment",
-  //   description:
-  //     "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-  //   tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-  //   imageUrl: corpcommentImg,
-  // },
-  // {
-  //   title: "rmtDev",
-  //   description:
-  //     "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-  //   imageUrl: rmtdevImg,
-  // },
   {
     title: "Word Analytics",
     description:
@@ -140,6 +126,7 @@ export const skillsData = [
   "Spring",
   "Django",
   "Perspective",
+  "WordPress",
   "Node.js",
   "MongoDB",
   "Prisma",
