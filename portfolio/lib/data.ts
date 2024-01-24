@@ -54,7 +54,7 @@ export const experiencesData = [
 
   {
     title: "Software Development Intern",
-    location: "Columbia, MD",
+    location: "Numa Staffing,Columbia, MD",
     description:
       "Improved a JavaScript-based web application, for a temporary staffing company, resulting in a 15% reduction in customer support tickets. Served as an assistant team lead, leading code testing efforts with a team of four developers, leading to a 20% increase in user engagement",
     icon: React.createElement(FaReact),
