@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useRef } from "react";
 import SectionHeading from "./section-heading";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
@@ -10,6 +10,7 @@ import toast from "react-hot-toast";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
+  const formRef = useRef<HTMLFormElement>(null); // Initialize with null
 
   return (
     <motion.section
@@ -50,6 +51,7 @@ export default function Contact() {
           //   console.log("Running on client");
           //   console.log(formData.get("senderEmail"));
           //   console.log(formData.get("message"));
+
           const { data, error } = await sendEmail(formData);
           if (error) {
             toast.error(error);
@@ -57,7 +59,12 @@ export default function Contact() {
           }
 
           toast.success("Email sent successfully");
+
+          if (formRef.current) {
+            formRef.current.reset();
+          }
         }}
+        ref={formRef}
       >
         <input
           className="
