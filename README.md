@@ -22,12 +22,6 @@ to wrap them in an anchor tag
 
 Using <input> tag for users email because it is a single line. For multiple lines of input, I will rather use a text area tag
 
-5:06 email form validation
-5:20 send email using Resend email
-5:52 installing react email components
-6:13 customizing alert message
-6:16 Adding a footer
-6:35 Dark Mode system setting fixes
 
 I am using resend for the email. Resend is a popular for emails made by the same team as React Email
 https://resend.com/login?redirectedFrom=%2Foverview
