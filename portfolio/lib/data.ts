@@ -35,22 +35,7 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  // {
-  //   title: "Associates of Science",
-  //   location: "Howard Community College, Columbia, MD",
-  //   description:
-  //     "I studied coursework in Computer Science to obtain an Associates of Science Degree in Computer Science",
-  //   icon: React.createElement(LuGraduationCap),
-  //   date: "2022 - 2024",
-  // },
-  // {
-  //   title: "Bachelor of Science",
-  //   location: "Towson University, Towson, MD",
-  //   description:
-  //     "I am currently taking coursework in computer science full-time, working towards a Bachelors in Computer Science Degree Program",
-  //   icon: React.createElement(LuGraduationCap),
-  //   date: "2023 - 2025",
-  // },
+ 
 
   {
     title: "Software Development Intern",
