@@ -13,10 +13,11 @@ and I noticed a few things
 This creates a new problem which does not allow me do animations since I forced the timeline component to display
 true, it display is always visible
 
-# Making the projects clickable
+# Project section
 
-To make the projects clickable so that I can redirect the user to another site, I will just need
-to wrap them in an anchor tag
+For the project section data, I used an array of objects.
+
+To make the projects clickable so that I can redirect the user to another site, I will just need to wrap them in an anchor tag
 
 # Contact me section
 
