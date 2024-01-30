@@ -36,6 +36,8 @@ To keep track of the current theme when the user reloads or revisits the website
 When I have a track of it, we need to get the theme when the page is about to display again
 using use effect, then set the theme to the local theme if any exists
 
+since we have to track this across multiple parts of the file, we can refactor it into a custom hook and just import it inside the different files
+
 I can also keep track of the default theme on the users computer using media query
 windows.matchMedia("(prefers-color0scheme: dark)").matches
 
