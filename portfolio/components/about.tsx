@@ -21,10 +21,10 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am a college student working towards a{" "}
-        <span className="font-medium">Bsc in Computer Science</span>, where I
-        decided to pursue my passion for programming. I am a full time student
-        at{" "}
+        I am a college student born and raised in Limbe, Cameroon. I am working
+        towards a <span className="font-medium">Bsc in Computer Science</span>,
+        where I decided to pursue my passion for programming. I am a full time
+        student at{" "}
         <span className="font-medium">
           Towson University, Towson Maryland, United States
         </span>
