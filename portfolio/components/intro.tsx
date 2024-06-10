@@ -34,7 +34,7 @@ export default function Intro() {
           >
             <Image
               alt="Manyaka's Potrait"
-              src="https://media.licdn.com/dms/image/D4E03AQExh97Qr3xReA/profile-displayphoto-shrink_400_400/0/1696957724742?e=1715212800&v=beta&t=lkygoGq4dsDrXAHGmOgQgEVB_9WjJSA6WAp-JDFdpWE"
+              src="https://media.licdn.com/dms/image/D4E03AQExh97Qr3xReA/profile-displayphoto-shrink_400_400/0/1696957724742?e=1723680000&v=beta&t=D8qdXISPvEaBuZbJhIjXv8gni-2HBaxIgJ-hvHCkRqw"
               height="192"
               width="192"
               quality="95"
