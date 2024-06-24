@@ -79,7 +79,7 @@ export const experiencesData = [
 //An array in JS with each projects represented by an obejct.
 export const projectsData = [
   {
-    title: "Word Analytics",
+    title: "Word Analytics - In Progress",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
